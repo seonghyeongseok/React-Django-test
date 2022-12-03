@@ -1,7 +1,7 @@
 from rest_framework.serializers import ModelSerializer
-from .models import SysConfig
+from .models import Test01
 
 class TestDataSerializer(ModelSerializer):
     class Meta:
-        model = SysConfig
+        model = Test01
         fields = '__all__'
